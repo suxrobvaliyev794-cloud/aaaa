@@ -1,0 +1,41 @@
+.grids{
+    background-color: rgb(21, 12, 12);
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.grid{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.col-1{
+    grid-area: 1/1/3/2;
+    background-color: gray;
+}
+
+.col-2{
+    grid-area: 1/2/2/4;
+    background-color: pink;
+}
+.col-3{
+    grid-area: 1/4/3/5;
+    background-color: gray;
+}
+.col-4{
+    grid-area: 3/1/4/2;
+    background-color: white;
+}
+.col-5{
+    grid-area: 2/2/4/4;
+    background-color: aquamarine;
+}
+.col-6{
+    grid-area: 3/4/5/5;
+    background-color: bisque;
+}
